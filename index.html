@@ -5,6 +5,17 @@
       rel="stylesheet"
       href="https://unpkg.com/reveal.js/css/theme/white.css"
     />
+  <style type="text/css">
+    .reveal p {
+      text-align: left;
+    }
+    .reveal ul {
+      display: block;
+    }
+    .reveal ol {
+      display: block;
+    }
+  </style>
     <link rel="stylesheet" href="https://unpkg.com/highlight.js/styles/vs2015.css"/>
   </head>
   <body>
@@ -36,15 +47,25 @@
       Reveal.initialize({
         dependencies: [
           {
-            src: 'https://unpkg.com/reveal.js/plugin/markdown/marked.js',
-            condition: function() { return !!document.querySelector( '[data-markdown]' ); }
+            src: 'https://unpkg.com/reveal.js/plugin/markdown/marked.js'
           },
-
-		{ src: 'https://unpkg.com/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-
-		// Syntax highlight for <code> elements
-		{ src: 'https://unpkg.com/reveal.js/plugin/highlight/highlight.js', async: true },
-        ]
+          {
+            src: 'https://unpkg.com/reveal.js/plugin/markdown/markdown.js'
+          },
+		      {
+            src: 'https://unpkg.com/reveal.js/plugin/highlight/highlight.js',
+            async: true
+          },
+          { src: 'plugin/zoom-js/zoom.js', async: true },
+        ],
+        slideNumber: true,
+        hash: true,
+        controlsTutorial: false,
+        // width: "100%",
+      	// height: "100%",
+	      // margin: 0,
+	      // minScale: 1,
+        // maxScale: 1
       });
     </script>
   </body>
