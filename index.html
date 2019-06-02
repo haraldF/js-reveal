@@ -44,6 +44,12 @@
     <script src="https://unpkg.com/reveal.js/plugin/markdown/marked.js"></script>
     <script src="https://unpkg.com/reveal.js/plugin/markdown/markdown.js"></script> -->
     <script>
+      let link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'https://unpkg.com/reveal.js/css/print/pdf.css' : 'https://unpkg.com/reveal.js/css/print/paper.css';
+      document.getElementsByTagName('head')[0].appendChild(link);
+
       Reveal.initialize({
         dependencies: [
           {

@@ -4,7 +4,7 @@
 
 ---
 
-## Hi!
+### Hi!
 
 Welcome to JavaScript!
 
@@ -16,7 +16,7 @@ let courseStarting = true;
 
 ---
 
-## Pillars of Web Development
+### Pillars of Web Development
 
 | HTML | CSS | JavaScript |
 | ---- | --- | ---------- |
@@ -40,7 +40,7 @@ p.remove(); // removes the paragraph
 
 ---
 
-## JavaScript - What is it?
+### JavaScript - What is it?
 
 * JS is a lightweight, cross-platform, object-oriented programming language
 * JS is one of three core technologies of web development
@@ -50,7 +50,7 @@ p.remove(); // removes the paragraph
 
 ---
 
-## JavaScript - "Full Stack"
+### JavaScript - "Full Stack"
 
 * JS can be used in more contexts, though:
   * In mobile apps, for example [Cordova](https://cordova.apache.org/) or [React Native](https://facebook.github.io/react-native/)
@@ -59,7 +59,7 @@ p.remove(); // removes the paragraph
 
 ---
 
-## Tools
+### Tools
 
 We'll be using these tools during our course:
 
@@ -69,7 +69,7 @@ We'll be using these tools during our course:
 
 ---
 
-## Tools: Chrome Browser
+### Tools: Chrome Browser
 
 * https://www.google.com/chrome/
 * Most common browser
@@ -78,7 +78,7 @@ We'll be using these tools during our course:
 
 ---
 
-## Tools: Visual Studio Code
+### Tools: Visual Studio Code
 
 * https://code.visualstudio.com/
 * Open source IDE (**I**ntegrated **D**evelopment **E**nvironment)
@@ -88,7 +88,7 @@ We'll be using these tools during our course:
 
 ---
 
-## Tools: MDN Web Documentation
+### Tools: MDN Web Documentation
 
 * https://developer.mozilla.org/en-US/
 * Up to date reference for JS
@@ -97,7 +97,7 @@ We'll be using these tools during our course:
 
 ---
 
-## Additional Courseware
+### Additional Courseware
 
 * [freecodecamp.org](https://www.freecodecamp.org/)
 * [udemy.com](https://www.udemy.com): Introduction to JavaScript Development
@@ -105,13 +105,13 @@ We'll be using these tools during our course:
 
 ---
 
-## Why homework?
+### Why homework?
 
 ![BloomsTaxonomy](images/Blooms_Taxonomy_pyramid_cake-style.jpg) <!-- .element height="80%"     -->
 
 ---
 
-# Special Characters
+### Special Characters
 
 | Character | Character |
 | --- | --- |
@@ -127,7 +127,7 @@ We'll be using these tools during our course:
 
 ---
 
-## Data Types
+### Data Types
 
 | Name | Description | Example |
 | --- | --- | --- |
@@ -138,7 +138,7 @@ We'll be using these tools during our course:
 
 ---
 
-## Variables
+### Variables
 
 Variable: A container in which we can store a value in order to use it later again in our code
 
@@ -151,7 +151,7 @@ let priceCappuccino = 3;
 
 ---
 
-## Quiz Time
+### Quiz Time
 
 What are the types of the following variables?
 
@@ -165,7 +165,7 @@ let deliveryDate = undefined;
 
 ---
 
-## Quiz Time - solution
+### Quiz Time - solution
 
 What are the types of the following variables?
 
@@ -179,7 +179,7 @@ let deliveryDate = undefined;   // undefined
 
 ---
 
-## Let, const and var
+### Let, const and var
 
 * In this course, we use the `let` keyword to declare new variables
 * Older JavaScript code uses `var`. This is deprecated, use `let` instead.
@@ -191,7 +191,7 @@ const PI = 3.1415;
 
 ---
 
-## Strings
+### Strings
 
 Strings start and end with single (`'`) or double quotes (`"`). But what if we want to add a quote within our string?
 
@@ -207,7 +207,7 @@ let indirectSpeech = "He said: \"Hello\"";
 
 ---
 
-## Quiz: Which strings are correct?
+### Quiz: Which strings are correct?
 
 ```none
 let s1 = "Hello";
@@ -221,7 +221,7 @@ let s7 = 'This is a backslash: \';
 
 ---
 
-## Solution
+### Solution
 
 ```JavaScript
 let s1 = "Hello";					// CORRECT
@@ -238,11 +238,11 @@ let s7_correct = 'This is a backslash: \\';
 
 ---
 
-## Operators
+### Operators
 
 | Group | Operators | Example |
 | ----- | --------- | ------- |
 | Numerical Operators | `+ - * /` | `5 + 4 * 3`<br/>`7 / 2 - 2`<br/>`"Hello" + " World"` |
 | Comparison Operators | `=== !== < > <= >=` | `temperature !== 25`<br/>`age >= 18` |
-| Logical Operators | `&& || !` | `a || !b`<br />`x >= 5 && x < 15` |
+| Logical Operators | &#124;&#124; `&& !` | `a && !b`<br />`x >= 5 && x < 15` |
 | Combined Operators | `+= -= *= /= ++` | `a *= 2`<br />`count++` |
