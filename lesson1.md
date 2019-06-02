@@ -1,3 +1,9 @@
+# Basic Frontend - Fall 2019
+
+## Lesson 1, Tuesday, 2019-08-??
+
+---
+
 ## Hi!
 
 Welcome to JavaScript!
@@ -99,8 +105,105 @@ We'll be using these tools during our course:
 
 ---
 
-## TODO
-<span style="color:red">Add more stuff</span> :)
+## Why homework?
+
+![BloomsTaxonomy](images/Blooms_Taxonomy_pyramid_cake-style.jpg) <!-- .element height="80%"     -->
+
+---
+
+# Special Characters
+
+| Character | Character |
+| --- | --- |
+| `(` Parentheses `)` | `&` Ampersand `&` |
+| `{` Braces, or curly braces `}` | `*` Asterisk `*` |
+| `[` Brackets, or square brackets `]` | `^` Caret or circumflex `^` |
+| `<` Angle brackets `>` | &#124; Vertical bar, or pipe &#124; |
+| `'` Single quote `'`| `~` Tilde `~` |
+| `"` Double quote `"` | `#` Hash or number sign `#` |
+| `` ` `` Back tick `` ` `` | `_` Underscore `_` |
+| `/` Slash, or Forward slash `/` | `:` Colon `:` |
+| `\` Backslash `\` | `;` Semicolon `;` |
+
+---
+
+## Data Types
+
+| Name | Description | Example |
+| --- | --- | --- |
+| Number | Decimals and integers | `42`<br/>`-2`<br/>`5.32` |
+| String | Text | `"Would you like express delivery?"`<br/>`'red'` |
+| Boolean | Logical values | `true`<br/>`false`
+| Undefined | "No value | `undefined` |
+
+---
+
+## Variables
+
+Variable: A container in which we can store a value in order to use it later again in our code
+
+Example:
+
+```js
+let priceCoffee = 2;
+let priceCappuccino = 3;
+```
+
+---
+
+## Quiz Time
+
+What are the types of the following variables?
+
+```js
+let temperature = 24;
+let name = "John";
+let teacherIsNice = true;
+let totalPrice = '12.5';
+let deliveryDate = undefined;
+```
+
+---
+
+## Quiz Time - solution
+
+What are the types of the following variables?
+
+```js
+let temperature = 24;           // number
+let name = "John";              // string
+let teacherIsNice = true;       // boolean
+let totalPrice = '12.5';        // string
+let deliveryDate = undefined;   // undefined
+```
+
+---
+
+## Let, const and var
+
+* In this course, we use the `let` keyword to declare new variables
+* Older JavaScript code uses `var`. This is deprecated, use `let` instead.
+* If you're sure that the value will never change, you can also declare a variable as "constant" with `const`:
+
+```js
+const PI = 3.1415;
+```
+
+---
+
+## Strings
+
+Strings start and end with single (`'`) or double quotes (`"`). But what if we want to add a quote within our string?
+
+```js
+let indirectSpeech = "He said: "Hello"";
+```
+
+Solution: We can escape the very next character with a backslash (`\`):
+
+```js
+let indirectSpeech = "He said: \"Hello\"";
+```
 
 ---
 
@@ -132,3 +235,14 @@ let s6 = 'This is a\nnew line';		// CORRECT
 let s7 = 'This is a backslash: \';	// WRONG - escaped '
 let s7_correct = 'This is a backslash: \\';
 ```
+
+---
+
+## Operators
+
+| Group | Operators | Example |
+| ----- | --------- | ------- |
+| Numerical Operators | `+ - * /` | `5 + 4 * 3`<br/>`7 / 2 - 2`<br/>`"Hello" + " World"` |
+| Comparison Operators | `=== !== < > <= >=` | `temperature !== 25`<br/>`age >= 18` |
+| Logical Operators | `&& || !` | `a || !b`<br />`x >= 5 && x < 15` |
+| Combined Operators | `+= -= *= /= ++` | `a *= 2`<br />`count++` |
